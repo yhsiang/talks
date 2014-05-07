@@ -66,8 +66,8 @@ gulp.task 'dev' <[build vendor:js server]> ->
 gulp.task 'present' <[build]> ->
   Server = require 'impress-server'
   dir = path.resolve '_public'
-  port = 8080
-  password = '604a'
+  port = gutil.env.port or process.env.port or 8080
+  password = gutil.env.password or process.env.password or '604a'
   server = new Server(dir, port, password)
   server.start!
 
