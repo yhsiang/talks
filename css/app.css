@@ -1,0 +1,71 @@
+.loop {
+  -webkit-animation-iteration-count: infinite;
+}
+.red {
+  color: #d95e5e !important;
+}
+.green {
+  color: #00b3aa !important;
+}
+.purple {
+  color: #57508b !important;
+}
+a {
+  color: #70cff5 !important;
+}
+.right {
+  float: right;
+}
+.step.slide .text {
+  line-height: 120px;
+  font-size: 70px;
+  margin: 15px auto;
+  text-align: center;
+}
+.step.slide .text.mid {
+  position: relative;
+  top: 220px;
+}
+.step.slide .author {
+  line-height: 10px;
+}
+.step.slide img {
+  width: 100%;
+}
+.step.slide img.small {
+  width: 50%;
+}
+.step.slide img.g0v {
+  margin-top: -50px;
+  position: relative;
+  left: 100px;
+  width: 75%;
+}
+.step.slide img.person {
+  margin-left: 100px;
+  margin-top: -200px;
+}
+.step.slide .title {
+  font-weight: 700;
+}
+#everybody-cut-tree span,
+#process span {
+  position: relative;
+  top: 300px;
+  left: 200px;
+  background-color: rgba(0,179,170,0.5) !important;
+  color: #fff;
+  font-size: 70px;
+}
+#twgeojson img,
+#rainfall-graph img,
+#visualize-it img {
+  margin: 0 100px;
+  height: 100%;
+  width: 75%;
+}
+#thank-you .footer {
+  position: relative;
+  top: 400px;
+  font-size: 22px;
+}
